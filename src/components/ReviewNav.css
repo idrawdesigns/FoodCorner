@@ -1,0 +1,21 @@
+.review-nav {
+  display: grid;
+  width: 100%;
+  padding: 10px;
+
+}
+
+.review-nav ul {
+  display: flex;
+  list-style: none;
+
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.review-nav li {
+  display: grid;
+  font-size: 12px;
+  padding-right: 20px;
+  color: rgb(116, 116, 116)
+}

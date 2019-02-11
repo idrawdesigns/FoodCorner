@@ -1,0 +1,34 @@
+.navigation {
+  display: Grid;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 30px;
+  color: rgb(116, 116, 116)
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-items: center;
+
+}
+
+
+.navigation li {
+  display: grid;
+  padding-bottom: 10px;
+
+
+}
+
+.active {
+  color: #FF004C;
+  border-bottom: 2px solid #FF004C;
+  text-align: center;
+  width: 120px;
+  z-index: 10000;
+}
